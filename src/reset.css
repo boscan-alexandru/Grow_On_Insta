@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  color: white;
+  text-decoration: none;
+}

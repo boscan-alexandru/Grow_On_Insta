@@ -1,0 +1,220 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255);
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  z-index: 300;
+}
+.a {
+  color: black;
+}
+.a:hover {
+  color: #1fb31f;
+}
+logo {
+  padding: 0 100px 0 25%;
+  display: inline-flex;
+}
+#logo {
+  padding: 6px;
+  width: 38px;
+  height: 38px;
+}
+#logo-title {
+  color: black;
+  z-index: 301;
+  margin: 6px 0 0 50px;
+  padding: 0;
+  position: absolute;
+}
+#links {
+  float: right;
+  margin-right: 25%;
+}
+#links,
+.k {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+.k {
+  padding: 10px;
+  margin-top: 6px;
+}
+.container {
+  height: 400px;
+  width: 100%;
+  background-color: #0e6692;
+  text-align: center;
+  color: white;
+  overflow-wrap: word-break;
+  z-index: 0;
+  padding-top: 50px;
+}
+#back {
+  width: 400px;
+  position: absolute;
+  color: rgba(182, 182, 182, 0.075);
+  z-index: 1;
+}
+h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  overflow-wrap: word-break;
+  font-size: 4em;
+  font-weight: 600;
+  padding: 30px;
+  z-index: 5;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.7em;
+  color: black;
+  font-weight: 900;
+}
+#sub-h {
+  width: 70%;
+  margin: 8px 15%;
+  z-index: 2;
+  line-height: 28px;
+}
+input {
+  position: absolute;
+  border: none;
+  font-size: 1.3em;
+  padding: 10px 0 10px 15px;
+  border-radius: 50px;
+  z-index: 3;
+  margin: 10px 0 0 -120px;
+  color: rgb(16, 72, 100);
+}
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2);
+}
+#v {
+  position: absolute;
+  width: 30px;
+  color: rgb(255, 255, 255);
+  margin: 9px 0 0 20px;
+  padding: 8px;
+  z-index: 4;
+  margin-left: 110px;
+  border-radius: 30px;
+  background-color: #1fb31f;
+}
+#v:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 2px rgba(31, 179, 31, 1);
+}
+#h {
+  z-index: 300;
+}
+.check {
+  position: absolute;
+  width: 45px;
+  margin-left: 95px;
+}
+#n {
+  z-index: 0;
+  margin-top: -280px;
+}
+.container2 {
+  display: list-item;
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  overflow-wrap: word-break;
+  z-index: 1;
+}
+.center {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  align-items: flex-start;
+}
+.center2 {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+.card {
+  color: black;
+  flex: 1;
+  background-color: rgb(243, 243, 243);
+  border-radius: 3px;
+  z-index: 2;
+  margin: 10px 10px;
+}
+.card-title {
+  margin: 15px;
+  color: #1fb31f;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transform: scale(1.02);
+  background-color: white;
+  box-shadow: 0px 0px 30px 1px rgba(0, 133, 97, 0.3);
+}
+.items {
+  text-decoration: none;
+  list-style: none;
+  margin: 30px 0;
+}
+.buy {
+  color: black;
+  width: 100%;
+  height: 60px;
+  display: inline-flex;
+}
+.buy:hover {
+  color: #1fb31f;
+}
+.cart-icon {
+  width: 40px;
+  margin: 0px 10px 0 26%;
+}
+.cart-text {
+  margin: 10px 0;
+}
+#priceh1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  overflow-wrap: word-break;
+  font-size: 4em;
+  font-weight: 600;
+  padding: 30px;
+  z-index: 5;
+}
+.container3 {
+  width: 100%;
+  height: 300px;
+  background-color: #f568ee;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  overflow-wrap: word-break;
+  z-index: 1;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    height: 100px;
+  }
+  .container {
+    padding-top: 100px;
+  }
+  #links {
+    padding-left: 5px;
+  }
+}
